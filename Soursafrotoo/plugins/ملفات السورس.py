@@ -19,7 +19,7 @@ async def reda(event):
     list = "**قائمة المكاتب المثبته**\n"
     for i in installed_packages_list:
         list += f"{i}\n"
-    list += "**سورس  زد إي**"
+    list += "**سورس عفرتو**"
     await edit_or_reply(event, list)
 
 @mody.ar_cmd(
