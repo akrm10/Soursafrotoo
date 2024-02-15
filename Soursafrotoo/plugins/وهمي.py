@@ -6,7 +6,7 @@ import aiohttp
 from telethon.errors import ChatAdminRequiredError as no_admin
 from telethon.tl.functions.messages import ExportChatInviteRequest
 
-from SourceZe import mody
+from Soursafrotoo import mody
 
 from ..helpers import get_user_from_event
 from . import *
