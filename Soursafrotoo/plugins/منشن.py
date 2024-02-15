@@ -1,7 +1,7 @@
 # By Reda for SourceZe
 # Tel: @rd0r0
 # شعندك داخل للملف تريد تخمطة ههههههههه اخمط ونسبة لنفسك ماوصيك :*
-from SourceZe import mody
+from Soursafrotoo import mody
 import asyncio
 import time
 from ..core.managers import edit_or_reply
