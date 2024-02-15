@@ -9,14 +9,14 @@ import re
 import time
 from datetime import datetime
 
-from SourceZe.utils import sudo_cmd
+from Soursafrotoo.utils import sudo_cmd
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 from telethon.tl import types
 from telethon.utils import get_attributes
 from youtube_dl import YoutubeDL
 from urlextract import URLExtract
 from wget import download
-from SourceZe import mody
+from Soursafrotoo import mody
 from youtube_dl.utils import (
     ContentTooShortError,
     DownloadError,
