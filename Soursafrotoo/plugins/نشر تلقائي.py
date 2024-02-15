@@ -5,12 +5,12 @@ from telethon.errors.rpcerrorlist import UserNotParticipantError
 from telethon.tl.functions.messages import ExportChatInviteRequest
 from telethon.tl.functions.users import GetFullUserRequest
 
-from SourceZe import mody
+from Soursafrotoo import mody
 
 from ..Config import Config
 from ..core.managers import edit_delete, edit_or_reply
 from ..sql_helper.autopost_sql import add_post, get_all_post, is_post, remove_post
-from SourceZe.core.logger import logging
+from Soursafrotoo.core.logger import logging
 from ..sql_helper.globals import gvarstatus
 from . import BOTLOG, BOTLOG_CHATID
 from . import *
@@ -50,23 +50,23 @@ async def _(event):
     if not jok:
         return await edit_or_reply(event, "**۞︙ عـذراً .. قـم بـ إضـافة معـرف/ايـدي القنـاة الى الامـر اولاً**")
     if jok.startswith("@"):
-        SourceZe = jok
+        Soursafrotoo = jok
     elif jok.startswith("https://t.me/"):
-        SourceZe = jok.replace("https://t.me/", "@")
+        Soursafrotoo = jok.replace("https://t.me/", "@")
     elif str(jok).startswith("-100"):
-        SourceZe = str(jok).replace("-100", "")
+        Soursafrotoo = str(jok).replace("-100", "")
     else:
         try:
-            SourceZe = int(jok)
+            Soursafrotoo = int(jok)
         except BaseException:
             return await edit_or_reply(event, "**۞︙ عـذراً .. معـرف/ايـدي القنـاة غيـر صـالح**\n**✾╎الرجـاء التـأكـد مـن المعـرف/الايـدي**")
     try:
-        SourceZe = (await event.client.get_entity(SourceZe)).id
+        Soursafrotoo = (await event.client.get_entity(Soursafrotoo)).id
     except BaseException:
         return await event.reply("**۞︙ عـذراً .. معـرف/ايـدي القنـاة غيـر صـالح**\n**✾╎الرجـاء التـأكـد مـن المعـرف/الايـدي**")
     if is_post(str(SourceZe) , event.chat_id):
         return await edit_or_reply(event, "**۞︙ النشـر التلقـائي من القنـاة ** `{jok}` **مفعـل مسبقـاً ✓**")
-    add_post(str(SourceZe), event.chat_id)
+    add_post(str(Soursafrotoo), event.chat_id)
     await edit_or_reply(event, f"**۞︙ تم تفعيـل النشـر التلقـائي من القنـاة ** `{jok}` **بنجـاح ✓**")
 
 
@@ -79,23 +79,23 @@ async def _(event):
     if not jok:
         return await edit_or_reply(event, "**۞︙ عـذراً .. قـم بـ إضـافة معـرف/ايـدي القنـاة الى الامـر اولاً**")
     if jok.startswith("@"):
-        SourceZe = jok
+        Soursafrotoo = jok
     elif jok.startswith("https://t.me/"):
-        SourceZe = jok.replace("https://t.me/", "@")
+        Soursafrotoo = jok.replace("https://t.me/", "@")
     elif str(jok).startswith("-100"):
-        SourceZe = str(jok).replace("-100", "")
+        Soursafrotoo = str(jok).replace("-100", "")
     else:
         try:
-            SourceZe = int(jok)
+            Soursafrotoo = int(jok)
         except BaseException:
             return await edit_or_reply(event, "**۞︙ عـذراً .. معـرف/ايـدي القنـاة غيـر صـالح**\n**✾╎الرجـاء التـأكـد مـن المعـرف/الايـدي**")
     try:
-        SourceZe = (await event.client.get_entity(SourceZe)).id
+        Soursafrotoo = (await event.client.get_entity(Soursafrotoo)).id
     except BaseException:
         return await event.reply("**۞︙ عـذراً .. معـرف/ايـدي القنـاة غيـر صـالح**\n**✾╎الرجـاء التـأكـد مـن المعـرف/الايـدي**")
     if not is_post(str(SourceZe), event.chat_id):
         return await edit_or_reply(event, "**۞︙ تم تعطيـل النشر التلقـائي لهـذه القنـاة هنـا .. بنجـاح ✓**")
-    remove_post(str(SourceZe), event.chat_id)
+    remove_post(str(Soursafrotoo), event.chat_id)
     await edit_or_reply(event, f"**۞︙ تم ايقـاف النشـر التلقـائي من** `{jok}`")
 
 
