@@ -9,7 +9,7 @@ import os
 from telethon import events
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 
-from SourceZe import mody
+from Soursafrotoo import mody
 
 from ..core.managers import edit_delete, edit_or_reply
 from ..helpers.utils import reply_id, _format
