@@ -18,7 +18,7 @@ from telethon.tl.types import (
 )
 from telethon.utils import get_input_location
 
-from SourceZe import mody
+from Soursafrotoo import mody
 
 from ..core.logger import logging
 from ..core.managers import edit_delete, edit_or_reply
