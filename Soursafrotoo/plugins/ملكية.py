@@ -3,7 +3,7 @@
 import telethon.password as pwd_mod
 from telethon.tl import functions
 
-from SourceZe import mody
+from Soursafrotoo import mody
 
 from ..Config import Config
 
