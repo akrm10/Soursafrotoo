@@ -6,7 +6,7 @@ from asyncio.exceptions import TimeoutError
 from telethon import events
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 
-from SourceZe import mody
+from Soursafrotoo import mody
 from ..helpers.utils import reply_id
 
 
