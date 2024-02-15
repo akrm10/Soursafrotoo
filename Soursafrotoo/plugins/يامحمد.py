@@ -1,6 +1,6 @@
-from SourceZe import mody, bot
+from Soursafrotoo import mody, bot
 import time
-from SourceZe import BOTLOG_CHATID
+from Soursafrotoo import BOTLOG_CHATID
 from ..sql_helper.globals import addgvar, delgvar, gvarstatus
 import asyncio
 from ..Config import Config
