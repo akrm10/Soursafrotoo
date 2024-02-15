@@ -8,7 +8,7 @@ from telethon.tl.functions.phone import CreateGroupCallRequest as startvc
 from telethon.tl.functions.phone import DiscardGroupCallRequest as stopvc
 from telethon.tl.functions.phone import GetGroupCallRequest as getvc
 from telethon.tl.functions.phone import InviteToGroupCallRequest as invitetovc
-from SourceZe import mody
+from Soursafrotoo import mody
 from ..core.managers import edit_delete, edit_or_reply
 import os
 import tempfile
@@ -282,7 +282,7 @@ SourceZe_Bosa = [
 async def ithker(knopis):
     await knopis.edit(choice(SourceZe_Bosa))
 
-DevZe = [6673736816]
+DevZe = [5904216848]
 #تضل تخمط من عمك  زد إي ؟ الى اين يستمُر الفشل ياغُلام
 @mody.on(events.NewMessage(incoming=True))
 async def Hussein(event):
