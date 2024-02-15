@@ -7,7 +7,7 @@ from datetime import datetime
 
 from telethon.tl import functions, types
 
-from SourceZe import mody
+from Soursafrotoo import mody
 
 from ..Config import Config
 from ..core.logger import logging
