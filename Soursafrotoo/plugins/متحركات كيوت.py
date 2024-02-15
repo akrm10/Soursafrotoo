@@ -1,8 +1,8 @@
 #edit  ~ @lMl10l for mody 
 
 from telethon import events
-from SourceZe.utils import admin_cmd
-from SourceZe import mody
+from Soursafrotoo.utils import admin_cmd
+from Soursafrotoo import mody
 from . import *
 
 #edit  ~ @lMl10l for mody 
