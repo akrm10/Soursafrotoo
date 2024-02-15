@@ -2,9 +2,9 @@ import os
 import urllib
 
 from telethon.tl import functions
-from SourceZe import mody
-from SourceZe.core.managers import edit_delete, edit_or_reply
-from SourceZe.sql_helper.globals import addgvar, gvarstatus
+from Soursafrotoo import mody
+from Soursafrotoo.core.managers import edit_delete, edit_or_reply
+from Soursafrotoo.sql_helper.globals import addgvar, gvarstatus
 
 plugin_category = "utils"
 
