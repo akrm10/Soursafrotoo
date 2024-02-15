@@ -1,6 +1,6 @@
 import asyncio
 
-from SourceZe import mody
+from Soursafrotoo import mody
 
 from ..core.managers import edit_or_reply
 
