@@ -1,6 +1,6 @@
 from telethon import events
 
-from SourceZe import mody
+from Soursafrotoo import mody
 
 from ..sql_helper.globals import addgvar, delgvar, gvarstatus
 
