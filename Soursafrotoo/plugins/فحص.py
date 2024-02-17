@@ -15,7 +15,7 @@ from telethon.errors.rpcerrorlist import (
 )
 from telethon.events import CallbackQuery
 
-from SourceZe import StartTime, mody, JEPVERSION
+from Soursafrotoo import StartTime, mody, JEPVERSION
 from ..Config import Config
 from ..core.managers import edit_or_reply
 from ..helpers.functions import catalive, check_data_base_heal_th, get_readable_time
@@ -45,7 +45,7 @@ async def amireallyalive(event):
     ms = (end - start).microseconds / 1000
     _, check_sgnirts = check_data_base_heal_th()
     EMOJI = gvarstatus("ALIVE_EMOJI") or "⿻┊‌‎"
-    ALIVE_TEXT = gvarstatus("ALIVE_TEXT") or "**父[ 𝚉𝙴 𝙸𝚂 𝚆𝙾𝚁𝙺𝙸𝙽𝙶 ✓ ](t.me/UI_XB)父**"
+    ALIVE_TEXT = gvarstatus("ALIVE_TEXT") or "**父[ afrotoo 𝙸𝚂 𝚆𝙾𝚁𝙺𝙸𝙽𝙶 ✓ ](t.me/UI_VM)父**"
     SourceZe_IMG = gvarstatus("ALIVE_PIC") or Config.A_PIC
     mody_caption = gvarstatus("ALIVE_TEMPLATE") or temp
     caption = mody_caption.format(
@@ -93,4 +93,4 @@ temp = """{ALIVE_TEXT}
 **‌‎{EMOJI}‌‎𝚄𝙿𝚃𝙸𝙼𝙴 𖠄 `{uptime}`** ٫
 ‌‎**{EMOJI}‌‎‌‎𝙿𝙸𝙽𝙶 𖠄 `{ping}`** ٫
 ‌‎**{EMOJI}‌‎‌‎𝚂𝙴𝚃𝚄𝙿 𝙳𝙰𝚃𝙴 𖠄 `{Tare5}`** ٫
-**𖠄 𝘇𝗲 𝘂𝘀𝗲𝗿𝗯𝗼𝘁 𖠄**"""
+**𖠄 AFROTOO 𝘂𝘀𝗲𝗿𝗯𝗼𝘁 𖠄**"""
