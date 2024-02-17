@@ -41,7 +41,7 @@ def celsius(c):
 def sun(unix, ctimezone):
     return datetime.fromtimestamp(unix, tz=ctimezone).strftime("%I:%M %p")
 
-SourceZe = "36980ed85a0d7008872784656e7ff2c8"
+Soursafrotoo = "36980ed85a0d7008872784656e7ff2c8"
 @mody.ar_cmd(
     pattern="الطقس(?:\s|$)([\s\S]*)",
     command=("الطقس", plugin_category),
