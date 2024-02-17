@@ -6,7 +6,7 @@ from time import time
 
 import speedtest
 
-from SourceZe import mody
+from Soursafrotoo import mody
 
 from ..core.managers import edit_or_reply
 from ..helpers.utils import reply_id
