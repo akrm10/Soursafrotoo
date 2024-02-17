@@ -1,7 +1,7 @@
 from asyncio import sleep
 
-from SourceZe import mody
-from SourceZe.core.logger import logging
+from Soursafrotoo import mody
+from Soursafrotoo.core.logger import logging
 
 plugin_category = "tools"
 LOGS = logging.getLogger(__name__)
