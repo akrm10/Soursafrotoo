@@ -13,7 +13,7 @@ from telethon.errors.rpcerrorlist import YouBlockedUserError
 from telethon.tl.functions.contacts import UnblockRequest as unblock
 from telethon.tl.functions.messages import ImportChatInviteRequest as Get
 
-from SourceZe import mody
+from Soursafrotoo import mody
 from . import mody
 from ..Config import Config
 from ..core.managers import edit_delete, edit_or_reply
@@ -23,7 +23,7 @@ plugin_category = "البوت"
 
 
 # code by t.me/UP_UO
-@mody.ar_cmd(pattern="زد إي(?: |$)(.*)")
+@mody.ar_cmd(pattern="عفرتو(?: |$)(.*)")
 async def zelzal_gpt(event):
     zilzal = event.pattern_match.group(1)
     zzz = await event.get_reply_message()
