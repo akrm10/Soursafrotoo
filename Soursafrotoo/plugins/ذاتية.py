@@ -1,9 +1,9 @@
-from SourceZe import mody
+from Soursafrotoo import mody
 from ..sql_helper.globals import addgvar, delgvar, gvarstatus
 import os
 import datetime
 from telethon import events
-from SourceZe import *
+from Soursafrotoo import *
 #ها يالفاشل شعدك داخل هنا 🫣 اعتمد ع نفسك لتخلي سورس زد إي مصدر طشت سورسك
 Aljoker_Asbo3 = {
     'Monday': 'الاثنين',
@@ -72,10 +72,10 @@ async def Reda(event):
         caption = """**
            ♡  غير مبري الذمة اذا استعملته للأبتزاز  ♡
 ♡ تم حفظ الذاتية بنجاح ✓
-♡ تم الصنع : @UI_XB 
+♡ تم الصنع : @UI_VM 
 ♡ أسم المرسل : [{0}](tg://user?id={1})
 ♡  تاريخ الذاتية : `{2}`
 ♡  أرسلت في يوم `{3}`
-       ♡    ZE    ♡
+       ♡    Afrotoo  ♡
         **"""
         await Hussein(event, caption)
