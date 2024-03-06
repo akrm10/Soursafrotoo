@@ -1,7 +1,7 @@
 import asyncio
 
-from SourceZe import mody
-from SourceZe.core.logger import logging
+from Soursafrotoo import mody
+from Soursafrotoo.core.logger import logging
 
 from ..Config import Config
 from ..core.managers import edit_delete
